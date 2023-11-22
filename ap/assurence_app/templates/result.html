@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Plan Data Result</title>
+</head>
+<body>
+    <h1>Plan Data Result</h1>
+    <h2>Plan Grade: {{ grade }}</h2>
+    <h3>Plan Details:</h3>
+    <pre>{{ plan_data | tojson(indent=2) }}</pre>
+    <a href="/">Back</a>
+</body>
+</html>

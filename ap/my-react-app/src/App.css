@@ -1,0 +1,129 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.plan-name-container {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.input-form {
+  margin: 0 auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.submit-button,
+.back-button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  margin-top: 10px;
+}
+
+.back-button {
+  background-color: #f44336;
+}
+
+.data-display {
+  white-space: pre-wrap;
+  text-align: left;
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grade-circle {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.header {
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sub-header {
+  font-size: 20px;
+  color: #333;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-align {
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .grade-container {
+    margin-bottom: 20px;
+  }
+}
